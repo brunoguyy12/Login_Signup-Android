@@ -108,7 +108,7 @@
             android:ems="10"
             android:hint="Enter your Password"
             android:textColorHint="@color/neutral_500"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:padding="12dp"
             android:textColor="@color/neutral_500"
             android:textSize="18sp" />

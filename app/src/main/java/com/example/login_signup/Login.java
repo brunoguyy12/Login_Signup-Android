@@ -38,7 +38,8 @@ public class Login extends AppCompatActivity {
                 tst.show();
             }
             else{
-                Intent res = new Intent(getApplicationContext(), MainActivity.class);
+                Toast.makeText(this, "Logged In Successfully!", Toast.LENGTH_LONG).show();
+                Intent res = new Intent(getApplicationContext(), home.class);
                 startActivity(res);
             }
         });

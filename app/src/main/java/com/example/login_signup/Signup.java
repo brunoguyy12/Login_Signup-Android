@@ -40,7 +40,8 @@ public class Signup extends AppCompatActivity {
             }
             else{
                 if(confirm.getText().toString().equals(password.getText().toString())) {
-                    Intent res = new Intent(getApplicationContext(), MainActivity.class);
+                    Toast.makeText(this, "Signed up successfully!", Toast.LENGTH_LONG).show();
+                    Intent res = new Intent(getApplicationContext(), home.class);
                     startActivity(res);
                 }
                 else{
